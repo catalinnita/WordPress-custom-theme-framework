@@ -1,0 +1,106 @@
+.jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-container-vertical {
+  width: 75px;
+  height: 245px;
+  padding: 40px 20px;
+}
+
+.jcarousel-clip {
+  overflow: hidden;
+}
+
+.jcarousel-clip-horizontal {
+  height: auto;
+  padding: 0px 0px;
+  margin: 0 25px;
+}
+
+.jcarousel-clip-vertical {
+  width: 75px;
+  height: 245px;
+}
+
+.jcarousel-item {
+  width: 75px;
+  height: auto;
+}
+
+.jcarousel-item-horizontal {
+	margin: 0;
+}
+
+.jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+  margin-right: 0;
+}
+
+.jcarousel-item-vertical {
+  margin-bottom: 10px;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+	width: 28px;
+	height: 55px;
+	margin-top: 50px;
+	top: 0px;
+	text-decoration: none;
+	text-align: right;
+	font-size: 25px;
+}
+
+.jcarousel-direction-rtl .jcarousel-next-horizontal {
+  left: 5px;
+  right: auto;
+}
+
+.jcarousel-prev-horizontal {
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+	width: 28px;
+	height: 55px;
+	font-size: 25px;
+	margin-top: 50px;
+	text-decoration: none;
+}
+
+
+.jcarousel-direction-rtl .jcarousel-prev-horizontal {
+  left: auto;
+  right: 5px;
+}
+
+.jcarousel-next-disabled, .jcarousel-prev-disabled {
+	display: none !important;
+}
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-next-vertical {
+  position: absolute;
+  bottom: 5px;
+  left: 43px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.jcarousel-prev-vertical {
+  position: absolute;
+  top: 5px;
+  left: 43px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+

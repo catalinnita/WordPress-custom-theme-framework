@@ -1,0 +1,3 @@
+Theme files are included in your child theme. You can find them here:
+_childtheme/style/themes/bootstrap-theme.css
+_childtheme/style/themes/custom-theme.css

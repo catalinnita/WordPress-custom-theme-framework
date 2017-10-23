@@ -1,0 +1,1 @@
+add here the documentation for istalling the theme.

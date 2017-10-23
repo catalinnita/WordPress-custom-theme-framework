@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+    src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.monosocial, .monosocial:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+.monosocial-fivehundredpx:before { content: 'fivehundredpx'; }
+.monosocial-aboutme:before { content: 'aboutme'; }
+.monosocial-addme:before { content: 'addme'; }
+.monosocial-amazon:before { content: 'amazon'; }
+.monosocial-aol:before { content: 'aol'; }
+.monosocial-appstorealt:before { content: 'appstorealt'; }
+.monosocial-appstore:before { content: 'appstore'; }
+.monosocial-apple:before { content: 'apple'; }
+.monosocial-bebo:before { content: 'bebo'; }
+.monosocial-behance:before { content: 'behance'; }
+.monosocial-bing:before { content: 'bing'; }
+.monosocial-blip:before { content: 'blip'; }
+.monosocial-blogger:before { content: 'blogger'; }
+.monosocial-coroflot:before { content: 'coroflot'; }
+.monosocial-daytum:before { content: 'daytum'; }
+.monosocial-delicious:before { content: 'delicious'; }
+.monosocial-designbump:before { content: 'designbump'; }
+.monosocial-designfloat:before { content: 'designfloat'; }
+.monosocial-deviantart:before { content: 'deviantart'; }
+.monosocial-diggalt:before { content: 'diggalt'; }
+.monosocial-digg:before { content: 'digg'; }
+.monosocial-dribble:before { content: 'dribble'; }
+.monosocial-drupal:before { content: 'drupal'; }
+.monosocial-ebay:before { content: 'ebay'; }
+.monosocial-email:before { content: 'email'; }
+.monosocial-emberapp:before { content: 'emberapp'; }
+.monosocial-etsy:before { content: 'etsy'; }
+.monosocial-facebook:before { content: 'facebook'; }
+.monosocial-feedburner:before { content: 'feedburner'; }
+.monosocial-flickr:before { content: 'flickr'; }
+.monosocial-foodspotting:before { content: 'foodspotting'; }
+.monosocial-forrst:before { content: 'forrst'; }
+.monosocial-foursquare:before { content: 'foursquare'; }
+.monosocial-friendsfeed:before { content: 'friendsfeed'; }
+.monosocial-friendstar:before { content: 'friendstar'; }
+.monosocial-gdgt:before { content: 'gdgt'; }
+.monosocial-github:before { content: 'github'; }
+.monosocial-githubalt:before { content: 'githubalt'; }
+.monosocial-googlebuzz:before { content: 'googlebuzz'; }
+.monosocial-googleplus:before { content: 'googleplus'; }
+.monosocial-googletalk:before { content: 'googletalk'; }
+.monosocial-gowallapin:before { content: 'gowallapin'; }
+.monosocial-gowalla:before { content: 'gowalla'; }
+.monosocial-grooveshark:before { content: 'grooveshark'; }
+.monosocial-heart:before { content: 'heart'; }
+.monosocial-hyves:before { content: 'hyves'; }
+.monosocial-icondock:before { content: 'icondock'; }
+.monosocial-icq:before { content: 'icq'; }
+.monosocial-identica:before { content: 'identica'; }
+.monosocial-imessage:before { content: 'imessage'; }
+.monosocial-itunes:before { content: 'itunes'; }
+.monosocial-lastfm:before { content: 'lastfm'; }
+.monosocial-linkedin:before { content: 'linkedin'; }
+.monosocial-meetup:before { content: 'meetup'; }
+.monosocial-metacafe:before { content: 'metacafe'; }
+.monosocial-mixx:before { content: 'mixx'; }
+.monosocial-mobileme:before { content: 'mobileme'; }
+.monosocial-mrwong:before { content: 'mrwong'; }
+.monosocial-msn:before { content: 'msn'; }
+.monosocial-myspace:before { content: 'myspace'; }
+.monosocial-newsvine:before { content: 'newsvine'; }
+.monosocial-paypal:before { content: 'paypal'; }
+.monosocial-photobucket:before { content: 'photobucket'; }
+.monosocial-picasa:before { content: 'picasa'; }
+.monosocial-pinterest:before { content: 'pinterest'; }
+.monosocial-podcast:before { content: 'podcast'; }
+.monosocial-posterous:before { content: 'posterous'; }
+.monosocial-qik:before { content: 'qik'; }
+.monosocial-quora:before { content: 'quora'; }
+.monosocial-reddit:before { content: 'reddit'; }
+.monosocial-retweet:before { content: 'retweet'; }
+.monosocial-rss:before { content: 'rss'; }
+.monosocial-scribd:before { content: 'scribd'; }
+.monosocial-sharethis:before { content: 'sharethis'; }
+.monosocial-skype:before { content: 'skype'; }
+.monosocial-slashdot:before { content: 'slashdot'; }
+.monosocial-slideshare:before { content: 'slideshare'; }
+.monosocial-smugmug:before { content: 'smugmug'; }
+.monosocial-soundcloud:before { content: 'soundcloud'; }
+.monosocial-spotify:before { content: 'spotify'; }
+.monosocial-squidoo:before { content: 'squidoo'; }
+.monosocial-stackoverflow:before { content: 'stackoverflow'; }
+.monosocial-star:before { content: 'star'; }
+.monosocial-stumbleupon:before { content: 'stumbleupon'; }
+.monosocial-technorati:before { content: 'technorati'; }
+.monosocial-tumblr:before { content: 'tumblr'; }
+.monosocial-twitterbird:before { content: 'twitterbird'; }
+.monosocial-twitter:before { content: 'twitter'; }
+.monosocial-viddler:before { content: 'viddler'; }
+.monosocial-vimeo:before { content: 'vimeo'; }
+.monosocial-virb:before { content: 'virb'; }
+.monosocial-www:before { content: 'www'; }
+.monosocial-wikipedia:before { content: 'wikipedia'; }
+.monosocial-windows:before { content: 'windows'; }
+.monosocial-wordpress:before { content: 'wordpress'; }
+.monosocial-xing:before { content: 'xing'; }
+.monosocial-yahoobuzz:before { content: 'yahoobuzz'; }
+.monosocial-yahoo:before { content: 'yahoo'; }
+.monosocial-yelp:before { content: 'yelp'; }
+.monosocial-youtube:before { content: 'youtube'; }
+.monosocial-instagram:before { content: 'instagram'; } 

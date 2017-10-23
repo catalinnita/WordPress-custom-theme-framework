@@ -1,0 +1,22 @@
+.divider {
+	text-align: center;
+}
+
+.divider.continuous,
+.divider.dotted,
+.divider.dashed,
+.divider.double {
+	clear: both;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	border-bottom-width: 1px;
+	border-bottom-color: #ccc;
+	display: block;
+}
+
+.divider.continuous { border-bottom-style: solid; }
+.divider.dotted { border-bottom-style: dotted; }
+.divider.dashed { border-bottom-style: dashed; } 
+.divider.double { border-width:medium; border-bottom-style: double; }
+
+.divider.x2 { border-bottom-width: 2px; }

@@ -1,0 +1,4 @@
+/* cpt icons */
+#adminmenu .menu-icon-testimonials div.wp-menu-image:before {
+	content: '\f122';
+}

@@ -1,0 +1,67 @@
+.dropcap {
+	font-size: 40px;
+	float: left;
+	margin-right: 10px;
+	line-height: 40px;
+	margin-top: 5px;
+}
+
+.dropcap.inverse { 
+	background: #333;
+	color: #FFF;
+	padding: 0.25em;
+	min-width: 1.5em;
+	text-align: center;
+}
+
+.dropcap.inverse.x2 {
+	padding: 20px;
+	width: 115px;
+	text-align: center;
+}
+
+.dropcap.x2 {
+	font-size: 80px;
+	line-height: 75px;
+}
+
+.circle { 
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+}
+.roundcorners {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;	
+}
+
+
+
+.icon-drop-cap {
+	line-height: 100%;
+}
+
+.icon-drop-cap.align-left {
+	float: left;
+} 
+.icon-drop-cap.align-right {
+	float: right;
+	margin-left: 10px;
+}
+.icon-drop-cap.align-center {
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+
+.dropcap.clear {
+	padding: 0px;
+	border-width: 0px !important;
+	background: none !important;
+	min-width: 0;
+}
+
+.text-align-left { text-align: left; }
+.text-align-center { text-align: center; }
+.text-align-right { text-align: right; }

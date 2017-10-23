@@ -1,0 +1,350 @@
+/*
+Theme Name: WPFW Framework
+Theme URI: http://PremiumWeddingThemes.com
+Description: This is the basic theme which icnludes the whole wpfw framework functionality. DO NOT change the files of these theme, or you lose the gurantee.
+Version: 1.0.0 
+Author: PremiumWeddingThemes.com
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: light
+Text Domain: wpfw-website
+
+*/
+/* Table of contents 
+
+-. Main website width
+1. Header
+2. Main Menu
+3. Footer
+4. General Content
+5. Required WP Selectors
+6. Widgets
+
+*/
+
+body, textarea {
+	font-family: Arial, Helvetica, Tahoma;
+	font-size: 12px;
+}
+
+body.logged-in { margin-top: 28px; }
+
+.WebsiteWidth, .Boxed  { width: 999px; margin: 0 auto; }
+.Boxed { margin-top: 30px; margin-bottom: 30px; }
+
+/* Header */
+
+#HeaderContainer { padding: 30px 0px; }
+#HeaderContainer #Header { min-height: 55px; }
+#HeaderContainer #Logo { 
+	display: block;
+	position: relative;
+	width: 40%;
+	overflow: hidden;
+	line-height: 1em;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 40px;
+}
+#HeaderContainer #Logo a { text-decoration: none; }
+#HeaderContainer #Headline { font-size: 12px; font-style: italic; }
+#Header .PhoneNumber { float: right; clear: right; margin-top: 10px; }
+#Header .socials { float: right; }
+#Header .socials li { float: left; }
+#Header .socials a {
+	display: block;
+	padding: 2px;
+	font-size: 31px;
+	float: left;
+	margin: 0px 2px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+
+
+#HeaderSearch { float: right; }
+
+#HeaderSearch .HeaderSearchInput {
+	font-size: 14px;
+	line-height: 24px;
+	border: 0px;
+	padding: 7px 12px 7px 40px;
+	width: 150px;
+	float: right;
+	margin: 0px;
+}
+
+#HeaderSearch .HeaderSearchSubmit {
+	float: right;
+	background: transparent;
+	border: 0px;
+	padding: 0px;
+	margin: 11px -27px 0px 0px;
+	position: relative;
+	cursor: pointer;
+	font: 14px WebSymbolsRegular;
+}
+
+/* Main Menu */
+
+nav { position: relative; }
+#MainMenu { padding: 7px 0px; min-height: 39px;	}
+#MainMenuList li { float: left; }
+
+#MainMenuList li a {
+	display: block;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+#MainMenuList li a span { 
+	display: block;
+	padding: 7px 12px;
+}
+
+#MainMenuList .sm {
+	position: absolute;
+	display: none;
+	min-width: 220px;
+	margin-left: 0px;
+}
+
+#MainMenuList ul.sub-menu {
+	text-align: left;
+	padding: 10px;
+}
+
+#MainMenuList ul.sub-menu li {
+	float: none;
+	display: block;
+}
+
+#MainMenuList ul.sub-menu li a { 
+	padding: 5px 10px; 
+	display: block;
+}
+
+#MainMenuList ul.sub-menu li a span {
+	padding: 0px;
+	width: 7px;
+	height: 7px;
+	margin: 9px 7px 10px 0px;
+	float: left;
+}
+
+/* Footer */
+
+#Footer {
+	padding: 30px 0px;
+	min-height: 12px;
+}
+
+#Copyright {
+	float: left;
+	padding: 5px 0px;
+}
+
+#Copyright a:hover {
+	text-decoration: none;
+}
+
+#BottomMenu {
+	float: right;
+}
+
+#BottomMenu li {
+	float: left;
+}
+
+#BottomMenu li a {
+	text-decoration: none;
+	padding: 5px 8px;
+	display: block;	
+}
+
+/* General Content */
+#TopContentContainer {
+	padding: 20px 0px;	
+}
+
+#MainWrap {
+	padding-top: 30px;
+	min-height: 600px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.3em;
+	font-weight: normal;
+}
+
+h1 { font-size: 30px; }
+h2 { font-size: 25px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 14px; }
+
+p {
+	padding: 8px 0px;
+	line-height: 1.6em !important;
+}
+
+blockquote {
+ font-size: 16px;
+ line-height: 1.6em;
+ display: block;
+ padding: 0px 0px 0px 0px;
+ margin: 15px 0px;
+}
+
+.button, input[type="submit"] {
+	text-decoration: none;
+	padding: 10px;
+	font-size: 14px;
+	border: 0px;
+}
+
+.input[type="text"], textarea, select {
+	font-size: 12px;
+	padding: 3%;
+	width: 93%;	
+}
+
+
+
+/* Required WP Selectors */
+
+.wp-caption {
+	max-width: 100%;
+	padding: 4px;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption,
+.entry-caption {
+	font-style: italic;
+	font-size: 0.857142857rem;
+	line-height: 2;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sticky { }
+.bypostauthor { }
+
+.gallery-item {
+	float: left;
+}
+
+.gallery-columns-9 .gallery-item,
+.gallery-columns-8 .gallery-item,
+.gallery-columns-7 .gallery-item {
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.gallery-columns-6 .gallery-item,
+.gallery-columns-5 .gallery-item,
+.gallery-columns-4 .gallery-item {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.gallery-columns-3 .gallery-item,
+.gallery-columns-2 .gallery-item,
+.gallery-columns-1 .gallery-item {
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.gallery dl.first {
+	margin-left: 0px;
+}
+
+.gallery .gallery-caption {
+	display: block;
+	text-align: center;
+	font-size: 0.8em;
+	line-height: 1.3em;
+	padding: 4px;
+}
+
+.gallery-columns-9 .gallery-item { width: 102px; }
+.gallery-columns-8 .gallery-item { width: 115px; }
+.gallery-columns-7 .gallery-item { width: 132px; }
+.gallery-columns-6 .gallery-item { width: 151px; }
+.gallery-columns-5 .gallery-item { width: 183px; }
+.gallery-columns-4 .gallery-item { width: 232px; }
+.gallery-columns-3 .gallery-item { width: 309px; }
+.gallery-columns-2 .gallery-item { width: 472px; }
+.gallery-columns-1 .gallery-item { width: 959px; }
+
+/* Widgets */
+
+.widget {
+	padding-bottom: 15px;
+}
+
+.widget .title {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.widget .sub-title {
+	font-size: 14px;
+	margin-top: -5px;
+	padding-bottom: 10px;
+}
+
+.widget ul li a,
+.widget ul li.recentcomments {
+	padding: 5px 0px;
+	display: block;
+	text-decoration: none;
+}
+
+.widget ul li.recentcomments a {
+	display: inline;
+}
+
+.widget #wp-calendar {
+	width: 100%;
+}
+
+.widget #wp-calendar caption, .widget #wp-calendar th, .widget #wp-calendar td {
+	padding: 5px;
+	text-align: center;
+}
+
+.widget #wp-calendar td#prev { text-align: left; }
+.widget #wp-calendar td#next { text-align: right; }
+
+.widget #search .search-button input {
+	font: 14px WebSymbolsRegular;
+	padding: 11px;
+}
+.widget #search #s {
+	font-size: 14px;
+	line-height: 24px;
+	padding: 4px 8px 5px;
+	width: 200px;
+	margin: 0px;
+}
+
+/* responsive */
+.phone-landscape, .phone-portrait, .extra-content, .tablet-landscape, .tablet-portrait { display: none; }
+.cleaner { clear: both; }
+.cleanerl { clear: left; }
+.fw { width: 100%; height: auto; }
+.nfw { width: auto; height: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+

@@ -1,0 +1,7 @@
+.wtgrab { 
+	cursor: url(../images/openhand.cur), move;
+}
+
+.wtgrabbing {
+	cursor: url(../images/closedhand.cur), move
+}

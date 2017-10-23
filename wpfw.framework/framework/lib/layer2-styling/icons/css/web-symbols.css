@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('../fonts/WebSymbols-Regular-webfont.eot');
+    src: url('../fonts/WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebSymbols-Regular-webfont.woff') format('woff'),
+         url('../fonts/WebSymbols-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+.websymbols:before { 
+	font-family: 'WebSymbolsRegular'; 
+}
+ 
+.websymbols-image:before { content: 'I'; }
+.websymbols-settings:before  { content: 'S'; }
+.websymbols-cloud:before { content: 'C'; }
+.websymbols-folder:before  { content: 'F'; }
+.websymbols-archive:before  { content: 'Z'; }
+.websymbols-movie:before  { content: 'M'; }
+.websymbols-html:before { content: 'H'; }
+.websymbols-text:before  { content: 'T'; }
+.websymbols-terminal:before  { content: '_'; }
+.websymbols-attachment:before  { content: 'A'; }
+.websymbols-html:before  { content: 'H'; }
+.websymbols-logout:before  { content: 'X'; }
+.websymbols-indent:before  { content: 'n'; }
+.websymbols-outdent:before  { content: 'o'; }
+.websymbols-list:before  { content: 'p'; }
+.websymbols-number-list:before  { content: 'q'; }
+.websymbols-move:before  { content: '~'; }
+.websymbols-user:before  { content: 'U'; }
+.websymbols-unlocked:before  { content: 'w'; }
+.websymbols-locked:before  { content: 'x'; }
+.websymbols-portrait-view:before  { content: 'a'; }
+.websymbols-album-view:before  { content: 'w'; }
+.websymbols-center:before  { content: 'w'; }
+.websymbols-zoom-in:before  { content: '+'; }
+.websymbols-zoom-out:before  { content: '-'; }
+.websymbols-up:before  { content: ':'; }
+.websymbols-down:before  { content: ';'; }
+.websymbols-close:before  { content: '×'; }
+.websymbols-scale:before  { content: '&'; }
+.websymbols-twitter:before  { content: 't'; }
+.websymbols-facebook:before  { content: 'f'; }
+.websymbols-vkontakte:before  { content: 'v'; }
+.websymbols-linked-in:before  { content: 'l'; }
+.websymbols-google-plus:before  { content: 'g'; }
+.websymbols-skype:before  { content: 's'; }
+.websymbols-rss:before  { content: 'r'; }
+.websymbols-rss2:before  { content: 'B'; }
+.websymbols-vimeo:before  { content: 'm'; }
+.websymbols-youtube:before  { content: 'y'; }
+.websymbols-tumblr:before  { content: 't'; }
+.websymbols-lettery:before  { content: 'k'; }
+.websymbols-odnoklassniki:before  { content: 'Q'; }
+.websymbols-favorite:before  { content: 'R'; }
+.websymbols-tag:before  { content: ','; }
+.websymbols-comment:before  { content: 'c'; }
+.websymbols-chat:before  { content: 'd'; }
+.websymbols-chat-opened:before  { content: 'e'; }
+.websymbols-rating:before  { content: 'u'; }
+.websymbols-pin:before  { content: '?'; }
+.websymbols-like:before  { content: 'N'; }
+.websymbols-unlike:before  { content: 'O'; }
+.websymbols-search:before  { content: 'L'; }
+.websymbols-reblog:before  { content: 'J'; }
+.websymbols-window:before  { content: 'D'; }
+.websymbols-clock:before  { content: 'P'; }
+.websymbols-link:before  { content: 'K'; }
+.websymbols-mail:before  { content: '@'; }
+.websymbols-descending:before  { content: '{'; }
+.websymbols-ascending:before  { content: '}'; }
+.websymbols-unfold:before  { content: '['; }
+.websymbols-fold:before  { content: ']'; }
+.websymbols-icon:before  { content: '¹'; }
+.websymbols-list:before  { content: '²'; }
+.websymbols-icon-list:before  { content: '{'; }
+.websymbols-reply:before  { content: 'h'; }
+.websymbols-reply-all:before  { content: 'i'; }
+.websymbols-forward:before  { content: 'j'; }
+.websymbols-fullscreen:before  { content: '%'; }
+.websymbols-done:before  { content: '.'; }
+.websymbols-approved:before  { content: '/'; }
+.websymbols-loading-0:before  { content: '0'; }
+.websymbols-loading-1:before  { content: '1'; }
+.websymbols-loading-2:before  { content: '2'; }
+.websymbols-loading-3:before  { content: '3'; }
+.websymbols-loading-4:before  { content: '4'; }
+.websymbols-loading-5:before  { content: '5'; }
+.websymbols-loading-6:before  { content: '6'; }
+.websymbols-loading-7:before  { content: '7'; }
+.websymbols-alert:before  { content: 'W'; }
+.websymbols-synchronize:before  { content: 'V'; }

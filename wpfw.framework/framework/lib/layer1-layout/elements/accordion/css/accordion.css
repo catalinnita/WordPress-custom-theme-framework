@@ -1,0 +1,9 @@
+.icon-none .ui-icon { display: none; }
+.icon-left .ui-icon { 
+	float: left; 
+	margin-right: 10px; 
+}
+.icon-right .ui-icon { 
+	float: right; 
+	margin-left: 10px;
+}

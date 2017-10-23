@@ -1,0 +1,165 @@
+/*
+ * jQuery Nivo Slider v2.6
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.slider-wrapper {
+	text-align: center;
+	padding: 9px 9px 6px 9px;
+	background-color: #c6c6bf;
+	width: 950px;
+	display: block;	
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 400px;
+	margin-bottom: -60px;
+}
+
+
+.nivoSlider {
+	width: 100%;
+	position:relative;
+	height: auto;
+	background-size: auto 100% !important;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	background-size: auto 100% !important;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity: 1; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+
+.nivo-directionNav {
+	display: block !important;
+	position: absolute;
+	z-index: 999;
+	top: 50%;
+	width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.nivo-directionNav a {
+	position: absolute;
+  text-decoration: none;
+  color: #fff;
+}
+.nivo-directionNav a:hover {
+	color: #fff;
+}
+
+.nivo-prevNav {
+	left: 0;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.nivo-nextNav {
+	right: 0;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position: absolute;
+	margin-top: -35px;
+	width: 100%;
+	text-align: center;
+	top: 100%;
+	z-index: 999;
+}
+
+.slider[data-navigation="false"] .nivo-controlNav { display: none; }
+
+.nivo-controlNav a {
+	font-size: 0px;
+	line-height; 0px;
+	display: inline-block;
+	text-decoration: none;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 0 0;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	text-align: center;
+	outline: 0;
+	background: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+}
+.nivo-controlNav a.active {
+	background: #FFF;
+}
+
+.nivo-control-thumb {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 93px;
+	height: 103px;
+	background: url(../../images/thumbnails/nivo-thumbnail.png) left top no-repeat;
+}
+
+.nivo-control-thumb img {
+	left: 10px;
+	top: 10px;
+}

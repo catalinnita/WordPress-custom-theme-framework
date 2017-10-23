@@ -1,0 +1,45 @@
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
+.jumbotron h1,
+.jumbotron h2, 
+.jumbotron h3, 
+.jumbotron h4, 
+.jumbotron h5, 
+.jumbotron strong {
+  line-height: 1;
+  color: inherit;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+
+.jumbotron p {
+  line-height: 1.4;
+}
+
+.container .jumbotron {
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1 {
+    font-size: 63px;
+  }
+}

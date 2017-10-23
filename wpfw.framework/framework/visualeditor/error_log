@@ -1,0 +1,5 @@
+[18-Aug-2014 19:01:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/wpfw/public_html/demo/wp-content/themes/wpfw.framework/framework/visualeditor/visual-editor-functions.php on line 551
+[18-Aug-2014 19:01:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/wpfw/public_html/demo/wp-content/themes/wpfw.framework/framework/visualeditor/visual-editor-functions.php on line 552
+[18-Aug-2014 19:01:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/wpfw/public_html/demo/wp-content/themes/wpfw.framework/framework/visualeditor/visual-editor-functions.php on line 553
+[18-Aug-2014 19:01:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/wpfw/public_html/demo/wp-content/themes/wpfw.framework/framework/visualeditor/visual-editor-functions.php on line 554
+[18-Aug-2014 19:01:45 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/wpfw/public_html/demo/wp-content/themes/wpfw.framework/framework/visualeditor/visual-editor-functions.php on line 555

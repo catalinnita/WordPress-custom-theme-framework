@@ -1,0 +1,491 @@
+.mejs-container {
+	position: relative;
+}
+
+.mejs-fullscreen {
+	/* set it to not show scroll bars so 100% will work */
+	overflow: hidden !important;
+}
+
+.mejs-container-fullscreen {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	z-index: 1000;
+	background: #000;
+}
+.mejs-container-fullscreen .mejs-mediaelement,
+.mejs-container-fullscreen video {
+	width: 100%;
+	height: 100%;
+}
+
+.mejs-clear {
+	clear: both;
+}
+
+/* Start: LAYERS */
+.mejs-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.mejs-mediaelement {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.mejs-poster {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: contain ;
+	background-position: 50% 50% ;
+	background-repeat: no-repeat ;
+}
+:root .mejs-poster img {
+	display: none ;
+}
+
+.mejs-poster img {
+	border: 0;
+	padding: 0;
+	border: 0;
+}
+
+.mejs-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.mejs-overlay-play {
+	cursor: pointer;
+}
+
+.mejs-overlay-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+	font-family: "Font Awesome";
+	color: #FFF;
+	font-size: 100px;
+	opacity: 0.5;
+	text-align: center;
+}
+
+.mejs-overlay-button:hover {
+	opacity: 0.8;
+}
+
+.mejs-overlay-button:before {
+	content: "\f16a";
+}
+
+
+/* Start: Time (Current / Duration) */
+.mejs-container .mejs-controls .mejs-time {
+	color: #fff;
+	display: block;
+	height: 17px;
+	width: auto;
+	padding: 8px 3px 0 3px ;
+	overflow: hidden;
+	text-align: center;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.mejs-container .mejs-controls .mejs-time span {
+	color: #fff;
+	font-size: 11px;
+	line-height: 12px;
+	display: block;
+	float: left;
+	margin: 1px 2px 0 0;
+	width: auto;
+}
+/* End: Time (Current / Duration) */
+
+
+/* Start: Progress Bar */
+
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	width: 0;
+}
+
+.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float { width: 48px; }
+.mejs-long-video .mejs-controls .mejs-time-rail .mejs-time-float-current { width: 44px; }
+
+
+
+.mejs-controls .mejs-horizontal-volume-slider {
+	height: auto;
+	overflow: visible;
+}
+
+/** audio player styles **/
+
+
+div.audio-player {
+  position: relative;
+}
+.audio-player h2 {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.audio-player .panel-body {
+	min-height: 64px;
+}
+
+.mejs-audio.mejs-container {
+	height: auto !important;
+	width: auto !important;
+	
+}
+
+/* play/pause control */
+.mejs-controls .mejs-button button {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  outline: 0 !important;
+}
+
+.mejs-controls .mejs-play button, 
+.mejs-controls .mejs-pause button {
+  width: 34px;
+  height: 34px;
+  left: 0px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  font-family: "Glyphicons Halflings";
+  text-indent: -2px;
+}
+
+.mejs-controls .mejs-play button:before { 
+	content: "\e072";
+}
+.mejs-controls .mejs-pause button:before {  
+	content: "\e073";	
+}
+ 
+ 
+/* mute/unmute control */
+.mejs-controls .mejs-mute button, .mejs-controls .mejs-unmute button {
+  width: 19px;
+  height: 19px;
+  padding: 0px;
+  top: 9px;
+  right: 11%;
+   -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+   font-family: "typicons";
+   line-height: 11px;
+}
+.mejs-controls .mejs-unmute button:before {
+	content: '\e117';
+}
+.mejs-controls .mejs-mute button:before {
+	content: '\e118';
+}
+
+/* volume scrubber bar */
+.mejs-controls div.mejs-horizontal-volume-slider {
+  position: absolute;
+  top: 13px;
+  right: 0px;
+  cursor: pointer;
+  width: 10%;
+  margin-bottom: 0px;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+  height: 11px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  position: absolute;
+  width: 0;
+  height: 10px;
+  top: 0px;
+  left: 0px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+	-webkit-transition: width 0 ease;
+	transition: width 0 ease;  
+}
+
+
+/* time scrubber bar */
+ 
+.mejs-controls .mejs-time-rail span {
+  position: absolute;
+  display: block;
+  width: 380px;
+  height: 12px;
+  top: 12px;
+  left: 50px;
+  cursor: pointer;
+  -webkit-border-radius: 0px 0px 2px 2px;
+  -moz-border-radius: 0px 0px 2px 2px;
+  border-radius: 0px 0px 2px 2px;
+}
+
+.mejs-controls .mejs-time-rail .tooltip-arrow {
+	bottom: 0;
+	top: 25px;
+	height: auto;
+	width: 1px;
+}
+ 
+.mejs-controls .mejs-time-rail .mejs-time-total { 
+  width: 82% !important; /* fixes display bug using jQuery 1.8+ */
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow: visible;
+  margin-bottom: 0px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+  top: 0;
+  left: 0;
+  width: 0;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  top: 0;
+  left: 0;
+  width: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;  
+	-webkit-transition: width 0 ease;
+	transition: width 0 ease;
+}
+
+/* metallic sliders */
+.mejs-controls .mejs-time-rail .mejs-time-handle {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  left: 0;
+  top: -5px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 0px;
+  top: -2px;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+
+/* time progress tooltip */
+.mejs-controls .mejs-time-rail .mejs-time-float {
+  position: absolute;
+  display: none;
+  top: -31px;
+  width: 45px;
+  margin-left: -24px;
+  z-index: 9999;
+}
+ 
+.mejs-controls .mejs-time-rail .mejs-time-float-current {
+  display: block;
+  left: 0;
+  top: 4px;
+  width: 45px;
+  z-index: 9999;
+  height: 21px;
+}
+
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/** resposinve **/
+
+@media (min-width: 320px) {
+	.mejs-controls .mejs-time-rail .mejs-time-total {  width: 55% !important; /* fixes display bug using jQuery 1.8+ */ }
+	.mejs-video-controls .mejs-controls .mejs-time-rail .mejs-time-total { width: 26% !important; }
+	.mejs-overlay-button {
+		width: 30px;
+		height: 30px;
+		font-size: 30px;
+		margin: -15px 0 0 -15px;
+	}	
+}
+
+@media (min-width: 480px) {
+	.mejs-controls .mejs-time-rail .mejs-time-total {  width: 65% !important; /* fixes display bug using jQuery 1.8+ */ }
+	.mejs-video-controls .mejs-controls .mejs-time-rail .mejs-time-total { width: 52% !important; }
+	.mejs-overlay-button {
+		width: 50px;
+		height: 50px;
+		font-size: 50px;
+		margin: -25px 0 0 -25px;
+	}	
+}
+
+@media (min-width: 640px) {
+	.mejs-controls .mejs-time-rail .mejs-time-total {  width: 70% !important; /* fixes display bug using jQuery 1.8+ */ }
+	.mejs-video-controls .mejs-controls .mejs-time-rail .mejs-time-total { width: 62% !important; }
+	.mejs-overlay-button {
+		width: 60px;
+		height: 60px;
+		font-size: 60px;
+		margin: -30px 0 0 -30px;
+	}	
+}
+
+@media (min-width: 768px) {
+	.mejs-controls .mejs-time-rail .mejs-time-total {  width: 72% !important; /* fixes display bug using jQuery 1.8+ */ }
+	.mejs-video-controls .mejs-controls .mejs-time-rail .mejs-time-total { width: 64% !important; }
+	.mejs-overlay-button {
+		width: 70px;
+		height: 70px;
+		font-size: 70px;
+		margin: -35px 0 0 -35px;
+	}
+}
+
+@media (min-width: 992px) {
+	.mejs-controls .mejs-time-rail .mejs-time-total {  width: 76% !important; /* fixes display bug using jQuery 1.8+ */ }
+	.mejs-video-controls .mejs-controls .mejs-time-rail .mejs-time-total { width: 70% !important; }
+	.mejs-overlay-button {
+		width: 100px;
+		height: 100px;
+		font-size: 100px;
+		margin: -50px 0 0 -50px;
+	}	
+}
+
+@media (min-width: 1200px) {
+	
+	.mejs-controls .mejs-time-rail .mejs-time-total {  width: 79% !important; /* fixes display bug using jQuery 1.8+ */ }
+	.mejs-video-controls .mejs-controls .mejs-time-rail .mejs-time-total { width: 73% !important; }
+	.mejs-overlay-button {
+		width: 100px;
+		height: 100px;
+		font-size: 100px;
+		margin: -50px 0 0 -50px;
+	}		
+}
+
+
+.mejs-video-controls {
+	position: absolute;
+	width: 96%;
+	bottom: 0px;
+	z-index: 10;
+	margin-left: 2%;
+}
+
+.mejs-video-controls .panel-body {
+	position: relative;
+	min-height: 64px;
+}
+
+.mejs-video-controls .mejs-controls {
+	position: relative;
+}
+
+.mejs-video-controls .mejs-fullscreen-button button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-family: "Font Awesome";
+}
+
+.mejs-video-controls .mejs-fullscreen-button button:before {
+	content: "\f0b2";
+}
+.mejs-video-controls .mejs-controls div.mejs-horizontal-volume-slider { 
+	right: 60px;
+}
+.mejs-video-controls .mejs-controls .mejs-mute button, .mejs-video-controls .mejs-controls .mejs-unmute button { margin-right: 60px; }
+
+
+.EmbeddedObject {
+	position: relative;
+	height: auto;
+}
+
+.EmbeddedObject.format2-1 {
+	padding-bottom: 50%; /* 2:1 */
+	height: 0;
+}
+
+.EmbeddedObject.format16-9 {
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+
+.EmbeddedObject.format4-3 {
+	padding-bottom: 75%; /* 4:3 */
+	height: 0;
+}
+
+.EmbeddedObject.format1-1 {
+	padding-bottom: 100%; /* 1:1 */
+	height: 0;
+}
+
+.EmbeddedObject iframe,
+.EmbeddedObject object,
+.EmbeddedObject embed{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.EmbeddedObject.format iframe,
+.EmbeddedObject.format object,
+.EmbeddedObject.format embed {
+	height: 100%;
+}
+
+.image-caption { 
+	display: block;
+	visibility: hidden;
+	margin-top: -30px;
+	background: rgba(255, 255, 255, 0.5);
+	position: relative;
+	padding: 5px;	
+}

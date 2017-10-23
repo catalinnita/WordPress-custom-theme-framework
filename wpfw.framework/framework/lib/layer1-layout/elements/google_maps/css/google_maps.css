@@ -1,0 +1,8 @@
+.google_map_img {
+	width: 100%;
+	height: auto;
+}
+
+#map1, #map2, #map3, #map4 {
+	height: 320px;
+}
